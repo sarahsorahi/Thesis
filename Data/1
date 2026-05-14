@@ -1,1 +1,9 @@
+## Data Resources
 
+| Resource | Description | Link |
+|---|---|---|
+| Bijankhan Corpus | Persian annotated corpus | http://ece.ut.ac.ir/dbrg/bijankhan/ |
+| FastText (cc.fa.300.bin) | Pre-trained Persian FastText | https://fasttext.cc/docs/en/crawl-vectors.html |
+| Word2Vec (cc.fa.300.vec) | Pre-trained Persian vectors | https://fasttext.cc/docs/en/crawl-vectors.html |
+| ParsBERT | Contextual Persian BERT | https://huggingface.co/HooshvareLab/bert-fa-base-uncased |
+| Hazm | Persian NLP toolkit | https://github.com/roshan-research/hazm |
