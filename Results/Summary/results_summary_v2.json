@@ -1,0 +1,58 @@
+{
+  "FastText": {
+    "cosine": {
+      "verbal_vs_verbal": 1.0,
+      "verbal_vs_possessive": 0.7449,
+      "verbal_vs_copular": 0.7996,
+      "possessive_vs_verbal": 0.7449,
+      "possessive_vs_possessive": 1.0,
+      "possessive_vs_copular": 0.6803,
+      "copular_vs_verbal": 0.7996,
+      "copular_vs_possessive": 0.6803,
+      "copular_vs_copular": 1.0
+    },
+    "svm": {
+      "accuracy": 0.9375,
+      "macro_f1": 0.9292,
+      "report": {
+        "copular": {
+          "precision": 0.8666666666666667,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.896551724137931,
+          "support": 14.0
+        },
+        "possessive": {
+          "precision": 0.9230769230769231,
+          "recall": 0.96,
+          "f1-score": 0.9411764705882353,
+          "support": 25.0
+        },
+        "verbal": {
+          "precision": 0.9743589743589743,
+          "recall": 0.926829268292683,
+          "f1-score": 0.95,
+          "support": 41.0
+        },
+        "accuracy": 0.9375,
+        "macro avg": {
+          "precision": 0.9213675213675213,
+          "recall": 0.9384668989547039,
+          "f1-score": 0.9292427315753887,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9394871794871793,
+          "recall": 0.9375,
+          "f1-score": 0.9378891987829615,
+          "support": 80.0
+        }
+      },
+      "classes": [
+        "copular",
+        "possessive",
+        "verbal"
+      ]
+    },
+    "silhouette": 0.0867
+  }
+}

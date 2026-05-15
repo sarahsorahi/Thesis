@@ -1,0 +1,51 @@
+{
+  "Word2Vec_pretrained": {
+    "accuracy": 0.9375,
+    "macro_f1": 0.9296,
+    "silhouette": 0.0865,
+    "cosine": {
+      "verbal_vs_verbal": 1.0,
+      "verbal_vs_possessive": 0.7473,
+      "verbal_vs_copular": 0.8079,
+      "possessive_vs_verbal": 0.7473,
+      "possessive_vs_possessive": 1.0,
+      "possessive_vs_copular": 0.6854,
+      "copular_vs_verbal": 0.8079,
+      "copular_vs_possessive": 0.6854,
+      "copular_vs_copular": 1.0
+    },
+    "report": {
+      "copular": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8888888888888888,
+        "support": 14.0
+      },
+      "possessive": {
+        "precision": 0.9259259259259259,
+        "recall": 1.0,
+        "f1-score": 0.9615384615384616,
+        "support": 25.0
+      },
+      "verbal": {
+        "precision": 0.95,
+        "recall": 0.926829268292683,
+        "f1-score": 0.9382716049382716,
+        "support": 41.0
+      },
+      "accuracy": 0.9375,
+      "macro avg": {
+        "precision": 0.9330009496676164,
+        "recall": 0.9279907084785134,
+        "f1-score": 0.9295663184552074,
+        "support": 80.0
+      },
+      "weighted avg": {
+        "precision": 0.9377653133903134,
+        "recall": 0.9375,
+        "f1-score": 0.9369005223171889,
+        "support": 80.0
+      }
+    }
+  }
+}

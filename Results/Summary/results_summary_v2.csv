@@ -1,0 +1,2 @@
+Model,Accuracy,Macro-F1,Silhouette,V–P sim.,V–C sim.,P–C sim.
+FastText,0.9375,0.9292,0.0867,0.7449,0.7996,0.6803
